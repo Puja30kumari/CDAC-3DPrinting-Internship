@@ -1,0 +1,5 @@
+Tuning notes:
+- Adjust STEPS_PER_MM_* for your mechanics (pulley diameter, belt pitch, gearing of 28BYJ-48).
+- If motion is reversed, swap 'dir' sign or motor coil order.
+- For smoother motion, reduce STEP_DELAY_US_BASE (at the cost of torque).
+- Add endstops and homing if you extend beyond simple demos.

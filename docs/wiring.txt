@@ -1,0 +1,29 @@
+DrawBot Wiring (28BYJ-48 + ULN2003 + Arduino UNO)
+
+X motor (ULN2003 board #1):
+ IN1 -> Arduino 2
+ IN2 -> Arduino 3
+ IN3 -> Arduino 4
+ IN4 -> Arduino 5
+
+Y motor (ULN2003 board #2):
+ IN1 -> Arduino 6
+ IN2 -> Arduino 7
+ IN3 -> Arduino 8
+ IN4 -> Arduino 9
+
+Z motor (ULN2003 board #3):
+ IN1 -> Arduino 10
+ IN2 -> Arduino 11
+ IN3 -> Arduino 12
+ IN4 -> Arduino 13
+
+Pen Servo (SG90):
+ Signal -> Arduino  ? 3 (can be any PWM pin)
+ +5V    -> 5V
+ GND    -> GND
+
+Power:
+ - Use a stable 5V 2A supply for motors.
+ - Connect grounds (Arduino GND and motor PSU GND).
+ - Optional endstops to spare pins with pullups.
