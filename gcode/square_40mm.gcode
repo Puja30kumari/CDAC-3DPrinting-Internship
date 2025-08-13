@@ -1,0 +1,10 @@
+; square_40mm.gcode
+G90
+G0 X0 Y0 Z0 F1000
+M3
+G1 X40 Y0 F800
+G1 X40 Y40
+G1 X0  Y40
+G1 X0  Y0
+M5
+G0 X0 Y0

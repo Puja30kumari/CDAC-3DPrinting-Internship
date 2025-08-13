@@ -1,0 +1,18 @@
+; HelloPath.gcode (very simple outline-ish strokes)
+G90
+G0 X0 Y0 Z0 F1200
+M3
+G1 X0  Y30 F700
+M5
+G0 X8 Y0
+M3
+G1 X8  Y30
+G1 X18 Y30
+G1 X18 Y0
+M5
+G0 X26 Y30
+M3
+G1 X26 Y0
+G1 X40 Y15
+G1 X26 Y30
+M5
